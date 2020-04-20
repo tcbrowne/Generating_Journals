@@ -1,6 +1,6 @@
 # Generating Journals
 
-Objective: randomly generate a sample of journals for testing of accounting / audit related scripts
+Objective: randomly generate a sample of journals for testing of accounting / audit related scripts (utilizes the double-entry system)
 
 The current focus of the script is around four different types of A/R related entries:
 - Invoicing
@@ -21,3 +21,4 @@ The script will loop through these 8 entries with a differnet "i" value each tim
 # Plans for Future Implementation
 - Include a way to choose the frequency of certain transactions / i.e., randomize transaction types rather than always having 8
 - Include a random variable within eeach transaction type 0 to 2 to change magnitude, multiply by that amount (have defined distribution)
+- Include VBA macro to organize the data and present financial statements with the random data
