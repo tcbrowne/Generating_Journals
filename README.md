@@ -14,6 +14,7 @@ Currently there are four fields defined: Account, Journal, Debit and Credit. Pla
 
 Chart of accounts is defined before each entry type (where relevant) within the loop. These accounts are also randomly generated. For instance, you can have revenue accounts between 4000 and 4900 by iterations of 300. This is realistic as typically there are multiple revenue streams. Same is true for cash, inventory, etc. See below for how chart of accounts is defined:
 
+![Chart of Accounts](https://user-images.githubusercontent.com/13516076/79734084-225de080-82c4-11ea-94d8-d625ea9123fe.PNG)
 
 The script will loop through these 8 entries with a differnet "i" value each time until its completed the amount of iterations defined by the user. At this point it will export the file to CSV format.
 
